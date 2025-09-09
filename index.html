@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Fútbol</title>
+<style>
+body {
+  background: 
+    url("imagnes/back.png") no-repeat center center fixed,
+    linear-gradient(rgba(0, 77, 0, 0.6), rgba(0, 26, 0, 0.8));
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+header, footer {
+  background: rgba(0, 128, 0, 0.9);
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+nav {
+  background: rgba(0, 100, 0, 0.9);
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+nav a {
+  color: #ffd700;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+section {
+  padding: 15px;
+  background: rgba(34, 139, 34, 0.85);
+  margin: 10px;
+  border-radius: 6px;
+}
+
+h2 {
+  color: #ffd700;
+}
+
+.jugadores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.jugador {
+  background: rgba(0, 100, 0, 0.9);
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.jugador img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.jugador p {
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚽ Fútbol</h1>
+  <p>El deporte que une al mundo</p>
+</header>
+
+<nav>
+  <a href="#historia">Historia</a>
+  <a href="#reglas">Reglas</a>
+  <a href="#jugadores">Jugadores</a>
+</nav>
+
+<section id="historia">
+  <h2>Historia</h2>
+  <p>Nació en Inglaterra en el siglo XIX y hoy es el deporte más popular del mundo.</p>
+</section>
+
+<section id="reglas">
+  <h2>Reglas</h2>
+  <p>Dos equipos de 11, 90 minutos y gana el que haga más goles.</p>
+  <p>El balón debe cruzar completamente la línea de gol para que se cuente como gol.</p>
+  <p>Si un jugador toca el balón con la mano de forma intencional fuera del área, se concede un tiro libre al equipo contrario.</p>
+  <p>Los partidos pueden incluir tiempo adicional y penales en caso de empate en torneos eliminatorios.</p>
+  <p>Existen sanciones como tarjetas amarillas (advertencia) y rojas (expulsión) por conductas antideportivas.</p>
+  <p>El fuera de juego se aplica cuando un jugador recibe el balón estando más cerca de la portería rival que el penúltimo defensor</p>
+</section>
+
+<section id="jugadores">
+  <h2>Jugadores históricos</h2>
+  <div class="jugadores">
+    <div class="jugador">
+      <img src="imagnes/pele.jpg" alt="Pelé">
+      <h3>Pelé</h3>
+      <p>Brasileño, tricampeón mundial, considerado el “Rey del fútbol”.</p>
+    </div>
+    <div class="jugador">
+      <img src="imagnes/maradona.jpg" alt="Maradona">
+      <h3>Maradona</h3>
+      <p>Argentino, genio del balón, famoso por el Mundial 1986 y la “Mano de Dios”.</p>
+    </div>
+    <div class="jugador">
+      <img src="imagnes/messi.jpg" alt="Messi">
+      <h3>Messi</h3>
+      <p>Argentino, goleador histórico, campeón del mundo en 2022.</p>
+      <p>Líder y capitán de la selección argentina, Messi es considerado uno de los mejores futbolistas de todos los tiempos. Destaca por su dribbling, velocidad y visión de juego. Ganó la Copa del Mundo en 2022 y múltiples Balones de Oro. A lo largo de su carrera, ha sido un referente de constancia y talento en clubes como Barcelona y PSG, inspirando a millones de jóvenes alrededor del mundo.</p>
+    </div>
+    <div class="jugador">
+      <img src="imagnes/cristiano ronaldo.jpg" alt="Cristiano Ronaldo">
+      <h3>Cristiano Ronaldo</h3>
+      <p>Estrella portuguesa conocida como CR7, Ronaldo se distingue por su fuerza, velocidad, técnica y capacidad goleadora. Ha jugado en clubes como Manchester United, Real Madrid y Juventus, y ha ganado múltiples Balones de Oro, Champions League y títulos nacionales e internacionales. Es uno de los máximos goleadores de la historia y un ícono del fútbol moderno.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>⚽ Página creada para los amantes del fútbol ⚽</p>
+</footer>
+
+</body>
+</html>
